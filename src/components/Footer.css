@@ -1,0 +1,42 @@
+@media screen and (max-width: 575px){
+    .footer  p{
+       font-size: 10px;
+    }
+    .footer h4{
+        font-size: 12px
+    }
+  
+}
+
+@media screen and (min-width: 576px){
+    .footer p{
+      font-size: 10px;
+   
+   }
+   .footer h4{
+    font-size: 12px
+}
+   
+}
+
+@media screen and (min-width: 768px){
+    .footer p{
+      font-size: 12px;
+
+   }
+   .footer h6{
+    font-size: 14px
+}
+   
+}
+
+@media screen and (min-width: 1200px){
+    .footer p{
+      font-size: 16px;
+    
+   }
+   .footer h6{
+    font-size: 18px
+}
+
+}

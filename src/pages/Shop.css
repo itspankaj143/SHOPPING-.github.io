@@ -1,0 +1,134 @@
+/* carousel */
+.carousel-item img {
+    height: auto;
+}
+
+
+/* Subscribe now form */
+
+#subscribeForm {
+    width: 100%;
+    height: 65px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 25px;
+    margin-bottom: 0;
+    border-radius: 0px;
+    border: 1px solid grey;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+hr {
+    color: rgb(185, 183, 183);
+}
+
+#subscribe {
+    padding: 7em 0em 7em 0em;
+}
+
+
+/* section 2 */
+.section2 {
+    margin-top: 7em;
+}
+
+
+/* footer */
+.footer {
+    background-color: black;
+    height: auto;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.footer p {
+    color: rgb(197, 197, 197);
+    font-size: 14px;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 575px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .section2 {
+        margin-top: 2em;
+    }
+
+    #subscribe {
+        padding: 2em 0em 2em 0em;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .section-title {
+        font-size: 48px;
+    }
+
+    .section2 {
+        margin-top: 3em;
+    }
+
+    #subscribe {
+        padding: 3em 0em 3em 0em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 48px;
+    }
+
+    #subscribe {
+        padding: 7em 0em 7em 0em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .section-title {
+        font-size: 60px;
+    }
+
+    #subscribe {
+        padding: 7em 0em 7em 0em;
+    }
+    .carousel-item img {
+        height: 93vh;
+    }
+}
